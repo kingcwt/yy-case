@@ -1,0 +1,6 @@
+export const HANDLE_SDBT_CHANGE = '/pages/releaseSd/HANDLE_SDBT_CHANGE'
+export const HANDLE_ISNM = '/pages/releaseSd/HANDLE_ISNM'
+export const HANDLE_CPLX_CHANGE = '/pages/releaseSd/HANDLE_CPLX_CHANGE'
+export const HANDLE_XXNR_CHANGE ='/pages/releaseSd/HANDLE_XXNR_CHANGE'
+export const HANDLE_IMG_UPLOAD = '/pages/releaseSd/HANDLE_IMG_UPLOAD'
+export const CLOSE_IMG_UPLOAD = '/pages/releaseSd/CLOSE_IMG_UPLOAD'

@@ -1,0 +1,6 @@
+export const HANDLE_HDZT_CHANGE = '/pages/releaseHd/HANDLE_HDZT_CHANGE'
+export const HANDLE_HDDZ_CHANGE = '/pages/releaseHd/HANDLE_HDDZ_CHANGE'
+export const HANDLE_LXDH_CHANGE = '/pages/releaseHd/HANDLE_LXDH_CHANGE'
+export const HANDLE_HDRS_CHANGE = '/pages/releaseHd/HANDLE_HDRS_CHANGE'
+export const HANDLE_XXNR_CHANGE = '/pages/releaseHd/HANDLE_XXNR_CHANGE'
+export const HANDLE_LXR_CHANGE = '/pages/releaseHd/HANDLE_LXR_CHANGE'

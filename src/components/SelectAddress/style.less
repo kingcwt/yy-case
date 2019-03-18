@@ -1,0 +1,84 @@
+.my-select-address{
+	position:fixed;
+	left: 0;
+	top:0;
+	width: 100%;
+	overflow-y: auto;
+	height: 100vh;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    background-color:#f2f2f2;
+	z-index:100;
+	margin-top:44Px;
+	.title{
+		font-size: .6rem;
+	}
+   
+    .my-jigou-item{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		padding-top: 0.2rem;
+		font-size: .6rem;
+		.index_body_wrap{
+			padding: 0;
+			border-bottom: 1px solid #ccc;
+			flex:1;
+			min-height: 1.6rem;
+			padding: 0.4rem 0 .6rem;
+			display: flex;
+			align-items: center;
+			.body_content{
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: left;
+				padding: 0 .8rem 0 0;
+				p{width: 100%;}
+				.title{font-size: 14Px;}
+				.content, .num{font-size: 12Px;color: #757575;}
+				.stateOrTime,.jobOrTime{
+					padding: 0;
+					width: 100%;
+					color: #757575;
+					.dy, .job{
+						padding: 0;
+						flex: 1;
+					}
+					.stating-will, .stating-ing, .stating-ed{
+						background-color: #F44336;
+						color: #fff;
+						padding: 0 0.4rem;
+						border-radius:.5rem;
+					}
+					.stating-ed{
+						background-color: #ccc;
+					}
+				}
+				.jobOrTime{
+					
+					.time{padding: 0;}
+				}
+			}
+			.toRight{
+				width:10Px;
+				height:10Px;
+				margin-right:20Px;
+			}
+		}
+		.user_header{
+			width: 36Px;
+			height: 36Px;
+			font-size: 16Px;
+			color: #555;
+			border-radius: 50%;
+			margin: 0 .6rem;
+			align-items: center;
+			justify-content: center;
+			padding: 0;
+			text-align: center;
+		    display: flex;
+		}		
+	}
+}

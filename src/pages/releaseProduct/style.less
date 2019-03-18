@@ -1,0 +1,64 @@
+.release-new-product{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	min-height: 100vh;
+	.at-form::after{
+		border: none;
+	}
+	.my-form-top{
+		background-color:#027BE3;
+		.at-nav-bar__title{
+			color: #fff;
+		}
+	}
+	.my-form{
+		flex: 1;
+		padding: .6rem;
+		margin-top:2.4rem;
+		.picker{
+			font-size: 14Px;
+		    padding: .3rem 0;
+		    border-bottom: 1px solid #ccc;
+		    margin-bottom: .5rem;
+			.fr{
+				display: inline-block;
+				float: right;
+			}
+		}
+		.my-form-wrap{
+			.title{font-size: 16Px;}
+		}
+	}
+	.release-new-product-top{
+		display: flex;
+		background-color: #027BE3;
+		color: #fff;
+		font-size: 16Px;
+		justify-content: space-between;
+		padding: .3rem .6rem;
+		img{
+			width: 1rem;
+			height: 1rem;
+		}
+	}
+	.my-form-sys{
+		display: flex;
+		flex-direction: row;
+        margin: 1rem 0;
+		.at-button{
+			height: auto;
+			line-height: 1.5rem;
+		}
+		&>div{
+			margin: 0 1rem 0 0;
+		}
+		.my-form-reset{
+			border: none;
+		}
+		.my-form-submit{
+			background-color: #1A87E4;
+			color: #fff;
+		}
+	}
+}

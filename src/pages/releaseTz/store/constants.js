@@ -1,0 +1,5 @@
+export const HANDLE_TZBT_CHANGE = '/pages/releaseTz/HANDLE_TZBT_CHANGE'
+export const HANDLE_ISNM = '/pages/releaseTz/HANDLE_ISNM'
+export const HANDLE_XXNR_CHANGE = '/pages/releaseTz/HANDLE_XXNR_CHANGE'
+export const HANDLE_IMG_UPLOAD = '/pages/releaseTz/HANDLE_IMG_UPLOAD'
+export const CLOSE_IMG_UPLOAD = '/pages/releaseTz/CLOSE_IMG_UPLOAD'

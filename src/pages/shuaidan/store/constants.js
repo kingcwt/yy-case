@@ -1,0 +1,1 @@
+ export const GET_INIT_LIST_DATA = 'pages/sd/index/GET_INIT_LIST_DATA'
